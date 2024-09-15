@@ -23,6 +23,6 @@
       "rules": {}
     }
   ],
-  "extends": ["plugin:playwright/recommended"],
+  "extends": ["plugin:playwright/recommended", "../.eslintrc.json"],
   "plugins": ["@nx"]
 }
